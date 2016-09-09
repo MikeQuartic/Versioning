@@ -1,1 +1,1 @@
-The scripts in this folder are copies of scripts that are modelbuilder tools in ATLAS-EDIT in the EDIT.PUD.CompassGISToolbox.
+The scripts in this repository are used to Compress, Rebuild Indexes, and Analyze the PUD feature datasets on atlas-edit.
