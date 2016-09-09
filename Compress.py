@@ -6,6 +6,9 @@
 # Description:
 # ---------------------------------------------------------------------------
 
+# Set the necessary product code
+#import arceditor
+
 
 # Import arcpy module
 import arcpy
