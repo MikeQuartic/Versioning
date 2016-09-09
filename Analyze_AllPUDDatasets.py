@@ -16,7 +16,7 @@ from datetime import datetime
 #-------------------------------------------------------------------------------
 #             Set variables that may change from computer to computer
 # Local variables:
-pudConnectionFile = "Database Connections\\pud@atlas-editdev.sde"
+pudConnectionFile = "Database Connections\\pud@atlas-edit.sde"
 
 #  Where do you want the log file to go???
 fileLog = r'C:\Users\mgrue\Scratch\Analyze_AllPUDDatasets.log'

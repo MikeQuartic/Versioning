@@ -16,7 +16,7 @@ from datetime import datetime
 #-------------------------------------------------------------------------------
 #             Set variables that may change from computer to computer
 # Local variables:
-sdeConnectionFile = "Database Connections\\sde@atlas-editdev.sde"
+sdeConnectionFile = "Database Connections\\sde@atlas-edit.sde"
 
 #  Where do you want the log file to go???
 fileLog = r'C:\Users\mgrue\Scratch\Compress.log'
