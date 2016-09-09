@@ -13,7 +13,7 @@
 import arcpy
 
 # Local variables:
-pudConnectionFile = "Database Connections\\zAtlas-editdev.sde (SDE ADMIN).sde"
+pudConnectionFile = "Database Connections\\sde@atlas-edit.sde"
 
 # Process: Compress
 arcpy.Compress_management(pudConnectionFile)
