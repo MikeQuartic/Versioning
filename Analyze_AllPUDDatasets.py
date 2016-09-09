@@ -28,10 +28,11 @@ success = True
 
 PUD_Datasets = ['EDIT.PUD.WATER', 'EDIT.PUD.SEWER', 'EDIT.PUD.RECYCLED',
                 'EDIT.PUD.CATHODIC_PROTECTION', 'EDIT.PUD.MISC']
-
+"""
+This list is to be used if you want to test the script in 'atlas-editDEV'
 PUD_Datasets = ['EDITDEV.PUD.WATER', 'EDITDEV.PUD.SEWER', 'EDITDEV.PUD.RECYCLED',
                 'EDITDEV.PUD.CATHODIC_PROTECTION', 'EDITDEV.PUD.MISC']
-
+"""
 #-------------------------------------------------------------------------------
 try:
 
@@ -61,6 +62,8 @@ try:
         if data_set in PUD_Datasets:
             print 'Analyzing: ' + data_set + ' data set'
             logging.info('Analyzing: ' + data_set + ' data set')
+
+            # Process:
             arcpy.Analyze_management(data_set, 'BUSINESS;FEATURE')
 
 except Exception as e:
