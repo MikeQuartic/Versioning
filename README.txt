@@ -1,1 +1,1 @@
-The scripts in this repository are used to Compress, Rebuild Indexes, and Analyze the PUD feature datasets on atlas-edit.
+The scripts in this repository are used to: Post PUD_Staging version to DEFAULT version, Compress, Rebuild Indexes, and Analyze the PUD feature datasets on atlas-edit.
